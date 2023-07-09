@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'   
 
 const initialState = {
   value: 0,
@@ -15,10 +15,10 @@ export const counterSlice = createSlice({
       // immutable state based off those changes
       state.value += 1
     },
-    decrement: (state) => {
+    decrement:(state) => {
       state.value -= 1
     },
-    incrementByAmount: (state, action) => {
+    incrementByAmount:(state, action) => {
       state.value += action.payload
     },
   },
