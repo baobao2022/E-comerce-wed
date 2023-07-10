@@ -13,5 +13,6 @@ const WrapperTextHeader =styled.span`
   text-align:left;
 `
 const WrapHeaderAcount =styled.div`
+
 `
 export {WrapHeader,WrapperTextHeader,WrapHeaderAcount};
